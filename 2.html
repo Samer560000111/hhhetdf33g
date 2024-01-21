@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>استمارة التواصل</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="https://formsubmit.co/Da8om@hotmail.com" method="POST">
+        <h1>اكمل الفراغات للتواصل معنا</h1>
+
+        <p>يرجى تقديم معلوماتك للتواصل معك:</p>
+
+        <input type="hidden" name="_subject" value="New email!">
+        <input type="text" name="name" placeholder="اسم الاول والثاني " required>
+        <input type="tel" name="phone" placeholder="رقم هاتفك" required>
+        <input type="text" name="email" placeholder="  البريد الكتروني " required>
+
+        <p><strong>اختر طلبك:</strong></p>
+        <select name="request_type" required>
+            <option value="الكتاب التجارة الرقمية">الكتاب التجارة الرقمية</option>
+            <option value="الربح من رقمن">الربح من رقمن</option>
+            <option value="دورة اللغة الإنجليزية">دورة اللغة الإنجليزية</option>
+            <option value="الربح من التجارة">الربح من التجارة</option>
+        </select>
+
+        <input type="submit" value="إرسال">
+
+    </form>
+
+</body>
+</html>
